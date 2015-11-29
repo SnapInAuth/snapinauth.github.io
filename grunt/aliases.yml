@@ -1,2 +1,2 @@
 'serve':
-	- 'concurrent:serve'
+	- 'connect:server:keepalive'

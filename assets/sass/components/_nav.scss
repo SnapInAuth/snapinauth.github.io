@@ -1,0 +1,16 @@
+@import "../variables";
+
+nav {
+	background-color: $color-secondary;
+	border-bottom: solid $color-primary 5px;
+	
+	>.content {
+		>a {
+			color: #FFFFFF;
+		}
+		>a.brand {
+			@include font-brand();
+			font-size: 50px;
+		}
+	}
+}

@@ -1,5 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+nav {
+  background-color: #222222;
+  border-bottom: solid #DD923E 5px; }
+  nav > .content > a {
+    color: #FFFFFF; }
+  nav > .content > a.brand {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 50px; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
 body {
-  background-color: black; }
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */
